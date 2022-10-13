@@ -1077,7 +1077,6 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
-    com.qualcomm.qti.gpudrivers.lito.api30 \
     PowerOffAlarm \
     QtiTelephonyService \
     WfdService \
