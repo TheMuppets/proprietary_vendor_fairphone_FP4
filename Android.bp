@@ -48,7 +48,7 @@ cc_prebuilt_library_shared {
 android_app_import {
 	name: "T2mEuiccOverlay",
 	owner: "fairphone",
-	apk: "proprietary/app/T2mEuiccOverlay/T2mEuiccOverlay.apk",
+	apk: "proprietary/system/app/T2mEuiccOverlay/T2mEuiccOverlay.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -58,7 +58,7 @@ android_app_import {
 android_app_import {
 	name: "EuiccGoogle",
 	owner: "fairphone",
-	apk: "proprietary/priv-app/EuiccGoogle/EuiccGoogle.apk",
+	apk: "proprietary/system/priv-app/EuiccGoogle/EuiccGoogle.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -160,13 +160,13 @@ android_app_import {
 dex_import {
 	name: "WfdCommon",
 	owner: "fairphone",
-	jars: ["proprietary/framework/WfdCommon.jar"],
+	jars: ["proprietary/system/framework/WfdCommon.jar"],
 }
 
 dex_import {
 	name: "tcmclient",
 	owner: "fairphone",
-	jars: ["proprietary/framework/tcmclient.jar"],
+	jars: ["proprietary/system/framework/tcmclient.jar"],
 }
 
 dex_import {
