@@ -81,32 +81,32 @@
         "owner": "sns_mmc56x3x",
         ".corr_mat":{
           "owner": "sns_mmc56x3x",
-          "0_0":{ "type": "flt", "ver": "0",
-            "data": "1.0"
+          "0_0":{ "type": "flt", "ver": "1",
+            "data": "0.999904"
           },
-          "0_1":{ "type": "flt", "ver": "0",
-            "data": "0.0"
+          "0_1":{ "type": "flt", "ver": "1",
+            "data": "0.013846"
           },
-          "0_2":{ "type": "flt", "ver": "0",
-            "data": "0.0"
+          "0_2":{ "type": "flt", "ver": "1",
+            "data": "-0.000570"
           },
-          "1_0":{ "type": "flt", "ver": "0",
-            "data": "0.0"
+          "1_0":{ "type": "flt", "ver": "1",
+            "data": "0.011604"
           },
-          "1_1":{ "type": "flt", "ver": "0",
-            "data": "1.0"
+          "1_1":{ "type": "flt", "ver": "1",
+            "data": "1.026000"
           },
-          "1_2":{ "type": "flt", "ver": "0",
-            "data": "0.0"
+          "1_2":{ "type": "flt", "ver": "1",
+            "data": "-0.021974"
           },
-          "2_0":{ "type": "flt", "ver": "0",
-            "data": "0.0"
+          "2_0":{ "type": "flt", "ver": "1",
+            "data": "-0.016427"
           },
-          "2_1":{ "type": "flt", "ver": "0",
-            "data": "0.0"
+          "2_1":{ "type": "flt", "ver": "1",
+            "data": "0.026800"
           },
-          "2_2":{ "type": "flt", "ver": "0",
-            "data": "1.0"
+          "2_2":{ "type": "flt", "ver": "1",
+            "data": "1.037839"
           }
         },
         ".bias":{

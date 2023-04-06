@@ -187,10 +187,6 @@ INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('286','112','','');
 INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('226','112','','');
 INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('226','911','','');
 INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('206','112','','');
-/*ADD Begin by renjiezhang, FP4-3724, 2022/05/30 */
-INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('206','911','','');
-INSERT INTO qcril_emergency_source_mcc_table VALUES('206','911','','');
-/*ADD End by renjiezhang, FP4-3724, 2022/05/30 */
 INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('260','112','','');
 INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('231','911','','');
 INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('231','112','','');
