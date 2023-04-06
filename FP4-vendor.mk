@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/fairphone/FP4
 
 PRODUCT_COPY_FILES += \
+    vendor/fairphone/FP4/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
+    vendor/fairphone/FP4/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/fairphone/FP4/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/fairphone/FP4/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/fairphone/FP4/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
@@ -1093,12 +1095,15 @@ PRODUCT_PACKAGES += \
     IWlanService \
     TimeService \
     PowerOffAlarm \
+    uimgbaservice \
     QtiTelephonyService \
     WfdService \
     ims \
     qcrilmsgtunnel \
     WfdCommon \
     tcmclient \
+    uimgbalibrary \
+    uimgbamanagerlibrary \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
