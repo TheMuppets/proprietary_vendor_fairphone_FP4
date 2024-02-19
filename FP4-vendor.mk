@@ -154,7 +154,39 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP4/proprietary/vendor/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/Headset_cal.acdb \
     vendor/fairphone/FP4/proprietary/vendor/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/Speaker_cal.acdb \
     vendor/fairphone/FP4/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/MotionDetParameter.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/MotionDetParameter.cfg \
     vendor/fairphone/FP4/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/capture_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/capture_cache \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/capture_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/capture_model \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/capture_policy:$(TARGET_COPY_OUT_VENDOR)/etc/camera/capture_policy \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/cnet_h384w512_quan_0317_int8.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cnet_h384w512_quan_0317_int8.tflite \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/intsense_config_singlebokeh.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/intsense_config_singlebokeh.bin \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/modnet_c12v2_in_h416_w544.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/modnet_c12v2_in_h416_w544.bin \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/modnet_c12v2_in_h416_w544.mnn:$(TARGET_COPY_OUT_VENDOR)/etc/camera/modnet_c12v2_in_h416_w544.mnn \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_SuperIQ.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_SuperIQ.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_back_000_200.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_back_000_200.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_back_2000_4000.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_back_2000_4000.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_back_200_400.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_back_200_400.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_back_4000_10000.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_back_4000_10000.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_back_400_2000.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_back_400_2000.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_front_0000_1000.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_front_0000_1000.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_front_1000_2500.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_front_1000_2500.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_front_2500_4000.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_front_2500_4000.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_front_4000_5000.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_front_4000_5000.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_wide_0000_1000.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_wide_0000_1000.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_wide_1000_3000.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_wide_1000_3000.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_wide_3000_8000.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_wide_3000_8000.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_wide_8000_10000.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_wide_8000_10000.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_zoom_0100_0250.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_zoom_0100_0250.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_zoom_0250_1400.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_zoom_0250_1400.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_zoom_10000_18000.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_zoom_10000_18000.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_zoom_1400_2300.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_zoom_1400_2300.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/params_zoom_2300_10000.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/params_zoom_2300_10000.txt \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/quantize_scene_0528_freeze_graph.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/camera/quantize_scene_0528_freeze_graph.tflite \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/sg_cap_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sg_cap_cache \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/sg_cap_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sg_cap_model \
+    vendor/fairphone/FP4/proprietary/vendor/etc/camera/sg_cap_policy:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sg_cap_policy \
     vendor/fairphone/FP4/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/fairphone/FP4/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/fairphone/FP4/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
@@ -605,7 +637,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP4/proprietary/vendor/lib64/camera/com.qti.tuned.tsp_imx582.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.tsp_imx582.bin \
     vendor/fairphone/FP4/proprietary/vendor/lib64/camera/com.qti.tuned.tsp_imx582_sma.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.tsp_imx582_sma.bin \
     vendor/fairphone/FP4/proprietary/vendor/lib64/camera/com.qti.tuned.tsp_imx582_sma_2nd.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.tsp_imx582_sma_2nd.bin \
-    vendor/fairphone/FP4/proprietary/vendor/lib64/camera/components/com.morpho.node.drchecker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.morpho.node.drchecker.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/camera/components/com.morpho.node.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.morpho.node.hdr.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/camera/components/com.morpho.node.ldc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.morpho.node.ldc.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/camera/components/com.morpho.node.moviesolid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.morpho.node.moviesolid.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/camera/components/com.morpho.node.sat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.morpho.node.sat.so \
@@ -643,6 +675,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP4/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.af.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.awb.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.pdlib.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/camera/components/com.tct.node.scenedetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.tct.node.scenedetect.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/com.qti.feature2.anchorsync.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.anchorsync.bitra.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/com.qti.feature2.demux.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.demux.bitra.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/com.qti.feature2.frameselect.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.frameselect.bitra.so \
@@ -669,6 +702,16 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP4/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.1.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.2.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.3.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/com.tct.cameraalgo.gs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.tct.cameraalgo.gs.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/com.tct.cameraalgo.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.tct.cameraalgo.hdr.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/com.tct.cameraalgo.hwmfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.tct.cameraalgo.hwmfnr.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/com.tct.cameraalgo.mirror.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.tct.cameraalgo.mirror.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/com.tct.cameraalgo.morpholdc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.tct.cameraalgo.morpholdc.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/com.tct.cameraalgo.morphonight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.tct.cameraalgo.morphonight.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/com.tct.cameraalgo.morphozoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.tct.cameraalgo.morphozoom.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/com.tct.cameraalgo.singlebokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.tct.cameraalgo.singlebokeh.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/com.tct.cameraalgo.tcldualbokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.tct.cameraalgo.tcldualbokeh.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/com.tct.cameraalgo.watermark.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.tct.cameraalgo.watermark.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/deviceInfoServiceModule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/deviceInfoServiceModule.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
@@ -746,6 +789,8 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/libanc_single_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libanc_single_bokeh.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/libanc_single_bokeh_rear.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libanc_single_bokeh_rear.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaoa.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
@@ -820,10 +865,14 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminkdescriptor.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminksocket.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/libmorpho_dcface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_dcface.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libmorpho_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_distortion_correction.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libmorpho_hdr_checker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_hdr_checker.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/libmorpho_image_refiner.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_image_refiner.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libmorpho_movie_stabilizer6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_movie_stabilizer6.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libmorpho_smooth_zoom_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_smooth_zoom_preview.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/libmorpho_super_resolution.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_super_resolution.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/libmotionDet.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmotionDet.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libnetmgr_nr_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_nr_fusion.so \
@@ -902,6 +951,10 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/libtclSceneDetector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtclSceneDetector.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/libtcl_dualcam_bokeh_cap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtcl_dualcam_bokeh_cap.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/libtcltflite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtcltflite.so \
+    vendor/fairphone/FP4/proprietary/vendor/lib64/libtctcameraalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtctcameraalgo.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/fairphone/FP4/proprietary/vendor/lib64/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustedapploader.so \
