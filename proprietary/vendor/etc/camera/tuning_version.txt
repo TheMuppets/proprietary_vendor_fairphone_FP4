@@ -1,0 +1,16 @@
+imx582_sma_aec=9
+imx582_sma_awb=9
+imx582_sma_af=7
+imx582_sma_noise=13
+imx582_sma_video=8
+imx582_sma_highpixel=4
+imx582_sma_hdr=4
+imx582_sma_supernight=3
+imx582_sma_preview=2
+imx582_sma_2nd_af=3
+imx582_noise=5
+imx582_video=2
+imx582_sma_zoom=7
+imx582_sma_flash=4
+imx582_af=3
+imx582_ae=3
