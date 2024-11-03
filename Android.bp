@@ -6261,24 +6261,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libril-qcril-hook-oem",
-	owner: "fairphone",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libril-qcril-hook-oem.so"],
-			shared_libs: ["libcutils", "libutils", "libdiag", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "librilqmiservices",
 	owner: "fairphone",
 	strip: {
