@@ -1,4 +1,4 @@
-# Copyright (c) 2018 - 2020 Qualcomm Technologies, Inc.
+# Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
 # All Rights Reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 
@@ -20,4 +20,10 @@ service dpmd /system/system_ext/bin/dpmd
 on property:persist.vendor.dpm.feature=*
     start dpmd
 on property:persist.vendor.dpm.feature=0
+    stop dpmd
+on property:ro.baseband=apq
+    stop dpmd
+on property:ro.baseband=sda
+    stop dpmd
+on property:ro.baseband=qcs
     stop dpmd

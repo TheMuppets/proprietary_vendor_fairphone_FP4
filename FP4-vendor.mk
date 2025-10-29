@@ -10,7 +10,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP4/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/fairphone/FP4/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/fairphone/FP4/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
-    vendor/fairphone/FP4/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    vendor/fairphone/FP4/proprietary/system/etc/sysconfig/qti_allowlist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_allowlist.xml \
     vendor/fairphone/FP4/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/fairphone/FP4/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/fairphone/FP4/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
@@ -106,7 +106,7 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP4/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
     vendor/fairphone/FP4/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/fairphone/FP4/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/fairphone/FP4/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64-qti.rc \
+    vendor/fairphone/FP4/proprietary/vendor/etc/init/android.hardware.camera.provider.qti@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider.qti@2.4-service_64.rc \
     vendor/fairphone/FP4/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/fairphone/FP4/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/fairphone/FP4/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
@@ -242,7 +242,6 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP4/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
     vendor/fairphone/FP4/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
     vendor/fairphone/FP4/proprietary/vendor/firmware/a615_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b02 \
-    vendor/fairphone/FP4/proprietary/vendor/firmware/a615_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.elf \
     vendor/fairphone/FP4/proprietary/vendor/firmware/a615_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.mdt \
     vendor/fairphone/FP4/proprietary/vendor/firmware/a619_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a619_gmu.bin \
     vendor/fairphone/FP4/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
@@ -261,7 +260,6 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP4/proprietary/vendor/firmware/lagoon_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b02 \
     vendor/fairphone/FP4/proprietary/vendor/firmware/lagoon_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b03 \
     vendor/fairphone/FP4/proprietary/vendor/firmware/lagoon_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b04 \
-    vendor/fairphone/FP4/proprietary/vendor/firmware/lagoon_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.elf \
     vendor/fairphone/FP4/proprietary/vendor/firmware/lagoon_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.mdt \
     vendor/fairphone/FP4/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/fairphone/FP4/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
@@ -280,6 +278,8 @@ PRODUCT_COPY_FILES += \
     vendor/fairphone/FP4/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/fairphone/FP4/proprietary/vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/10_version_update_ecc_table.sql \
     vendor/fairphone/FP4/proprietary/vendor/radio/qcril_database/upgrade/11_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/11_version_update_ecc_table.sql \
+    vendor/fairphone/FP4/proprietary/vendor/radio/qcril_database/upgrade/12_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/12_version_update_ecc_table.sql \
+    vendor/fairphone/FP4/proprietary/vendor/radio/qcril_database/upgrade/13_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/13_version_update_ecc_table.sql \
     vendor/fairphone/FP4/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
     vendor/fairphone/FP4/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
     vendor/fairphone/FP4/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
@@ -403,6 +403,7 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc_proprietary \
     libwfduibcsrcinterface_proprietary \
     libwfdutils_proprietary \
+    libwvhidl \
     libasphere \
     libshoebox \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
@@ -499,7 +500,7 @@ PRODUCT_PACKAGES += \
     fingerprint.lito \
     sensors.vl53l1_fp4 \
     vendor.qti.esepowermanager@1.1-impl \
-    vendor.qti.gnss@4.0-impl \
+    vendor.qti.gnss@4.3-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
@@ -567,6 +568,7 @@ PRODUCT_PACKAGES += \
     libdrmfs \
     libdrmtime \
     libdsi_netctrl \
+    libesepmconfig \
     libfp_ext_svc2 \
     libhdr_tm \
     libhexagon_nn_stub \
@@ -655,9 +657,9 @@ PRODUCT_PACKAGES += \
     libtrustedapploader \
     libwms \
     libwqe \
-    libwvhidl \
     libxml \
     libxtadapter \
+    qcrilHalMarshal \
     qcrild_librilutils \
     qtibus \
     qtimutex \
@@ -687,8 +689,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@2.0 \
     vendor.qti.gnss@2.1 \
     vendor.qti.gnss@3.0 \
-    vendor.qti.gnss@4.0-service \
     vendor.qti.gnss@4.0 \
+    vendor.qti.gnss@4.1 \
+    vendor.qti.gnss@4.2 \
+    vendor.qti.gnss@4.3-service \
+    vendor.qti.gnss@4.3 \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
@@ -803,6 +808,8 @@ PRODUCT_PACKAGES += \
     libwfduibcsinkinterface \
     libwfduibcsrc \
     libwfduibcsrcinterface \
+    vendor.qti.ImsRtpService-V1-ndk \
+    vendor.qti.diaghal-V1-ndk \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
@@ -813,9 +820,9 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
-    PowerOffAlarm \
     uimgbaservice \
     ImsRcsService \
+    PowerOffAlarm \
     QtiTelephonyService \
     WfdService \
     dpmserviceapp \
@@ -829,19 +836,23 @@ PRODUCT_PACKAGES += \
     dpmapi \
     qcrilhook \
     vendor.qti.ims.connection-V1.0-java \
+    vendor.qti.ims.connectionaidlservice-V1-java \
     vendor.qti.ims.factory-V2.0-java \
     vendor.qti.ims.factory-V2.1-java \
     vendor.qti.ims.factory-V2.2-java \
+    vendor.qti.ims.factoryaidlservice-V1-java \
     vendor.qti.ims.rcssip-V1.0-java \
     vendor.qti.ims.rcssip-V1.1-java \
     vendor.qti.ims.rcssip-V1.2-java \
+    vendor.qti.ims.rcssipaidlservice-V1-java \
     vendor.qti.ims.rcsuce-V1.0-java \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
+    vendor.qti.ims.rcsuceaidlservice-V1-java \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
     c2_manifest_vendor.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
-    vendor.qti.gnss@4.0-service.xml \
+    vendor.qti.gnss@4.3-service.xml \
     adpl \
     adsprpcd \
     cdsprpcd \

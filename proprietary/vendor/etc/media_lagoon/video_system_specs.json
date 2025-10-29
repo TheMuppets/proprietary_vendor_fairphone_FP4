@@ -15,7 +15,8 @@
 			"vt_driver_version": 534123018,
 			"ltr_max_count": 3,
 			"preprocess_max_downscale_factor": 8,
-			"preprocess_rotation": 1
+			"preprocess_rotation": 1,
+			"max_supported_framerate": 240
 		},
 		// List of HW codecs enabled for this target
 		"codecs-available": {
