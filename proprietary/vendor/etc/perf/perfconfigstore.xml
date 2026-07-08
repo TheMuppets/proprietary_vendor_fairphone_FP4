@@ -57,10 +57,13 @@ ________________________________________________________________________________
                 <Prop Name="ro.vendor.iocgrp.config" Value="1" />
                 <Prop Name="ro.lmk.kill_heaviest_task_dup" Value="true" />
                 <Prop Name="ro.lmk.enhance_batch_kill" Value="false" />
+                <Prop Name="ro.lmk.enable_preferred_apps" Value="true" />
                 <Prop Name="ro.lmk.enable_watermark_check" Value="true" />
                 <Prop Name="ro.lmk.enable_userspace_lmk" Value="true" />
                 <Prop Name="ro.lmk.use_new_strategy_dup" Value="true" />
                 <Prop Name="ro.lmk.super_critical" Value="606" />
+                <Prop Name="ro.lmk.psi_scrit_complete_stall_ms" Value="250" />
+                <Prop Name="ro.lmk.nstrat_wmark_boost_factor" Value="4" />
                 <Prop Name="ro.lmk.direct_reclaim_pressure" Value="45" />
                 <Prop Name="ro.lmk.reclaim_scan_threshold" Value="0" />
                 <Prop Name="vendor.perf.gestureflingboost.enable" Value="true" />
